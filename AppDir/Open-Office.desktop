@@ -16,11 +16,11 @@ Icon=icon
 InitialPreference=3
 StartupWMClass=ooffice
 
-Actions=Writer;Spreadsheets;Presentation;Draw;
+Actions=Writer;Spreadsheets;Presentation;Draw;Database;Math;
 
 
 [Desktop Action Writer]
-Name=Open-Office Writer
+Name=Writer
 GenericName=Open-Office Writer
 Comment=Use Open-Office Writer to edit articles and reports.
 MimeType=application/wps-office.wps;application/wps-office.wpt;application/wps-office.wpso;application/wps-office.wpss;application/wps-office.doc;application/wps-office.dot;application/vnd.ms-word;application/msword;application/x-msword;application/msword-template;application/wps-office.docx;application/wps-office.dotx;application/rtf;application/vnd.ms-word.document.macroEnabled.12;application/vnd.openxmlformats-officedocument.wordprocessingml.document;x-scheme-handler/ksoqing;x-scheme-handler/ksowps;x-scheme-handler/ksowpp;x-scheme-handler/ksoet;x-scheme-handler/ksowpscloudsvr;x-scheme-handler/ksowebstartupwps;x-scheme-handler/ksowebstartupet;x-scheme-handler/ksowebstartupwpp;
@@ -52,5 +52,19 @@ Name=Open-Office Draw
 GenericName=Open-Office Draw
 Comment=Use Open-Office Draw to edit vector images.
 Exec=AppRun --draw %U
+StartupNotify=false
+Icon=icon
+
+[Desktop Action Database]
+Name=Open-Office Database
+GenericName=Database
+Exec=AppRun --base %U
+StartupNotify=false
+Icon=icon
+
+[Desktop Action Math]
+Name=Math
+GenericName=Open-Office Math
+Exec=AppRun --math %U
 StartupNotify=false
 Icon=icon
