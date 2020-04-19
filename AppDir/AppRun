@@ -1,0 +1,11 @@
+#! /bin/bash
+set -e
+cd ${HOME}
+
+case "$1" in
+  '--writer') exec ${APPDIR}/opt/application/program/swriter $@ ;;
+  '--spreadsheets')   exec ${APPDIR}/opt/application/program/scalc $@ ;;
+  '--presentation')   exec ${APPDIR}/opt/application/program/simpress $@ ;;
+  '--draw')   exec ${APPDIR}/opt/application/program/sdraw $@ ;;
+  *)   exec ${APPDIR}/opt/application/program/soffice $@ ;;
+esac
