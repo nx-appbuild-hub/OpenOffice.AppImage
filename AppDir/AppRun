@@ -3,10 +3,10 @@ set -e
 cd ${HOME}
 
 case "$1" in
-  '--writer') exec ${APPDIR}/opt/application/program/swriter $@ ;;
-  '--spreadsheets')   exec ${APPDIR}/opt/application/program/scalc $@ ;;
-  '--presentation')   exec ${APPDIR}/opt/application/program/simpress $@ ;;
-  '--math')   exec ${APPDIR}/opt/application/program/smath $@ ;;
-  '--base')   exec ${APPDIR}/opt/application/program/sbase $@ ;;
-  *)   exec ${APPDIR}/opt/application/program/soffice $@ ;;
+  '--writer') exec ${APPDIR}/opt/application/program/swriter $2 ;;
+  '--spreadsheets')   exec ${APPDIR}/opt/application/program/scalc $2 ;;
+  '--presentation')   exec ${APPDIR}/opt/application/program/simpress $2 ;;
+  '--math')   exec ${APPDIR}/opt/application/program/smath $2 ;;
+  '--base')   exec ${APPDIR}/opt/application/program/sbase $2 ;;
+  *)   exec ${APPDIR}/opt/application/program/soffice $2 ;;
 esac
