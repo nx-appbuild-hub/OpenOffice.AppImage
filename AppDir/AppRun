@@ -8,5 +8,5 @@ case "$1" in
   '--presentation')   exec ${APPDIR}/opt/application/program/simpress $2 ;;
   '--math')   exec ${APPDIR}/opt/application/program/smath $2 ;;
   '--base')   exec ${APPDIR}/opt/application/program/sbase $2 ;;
-  *)   exec ${APPDIR}/opt/application/program/soffice $2 ;;
+  *)   exec ${APPDIR}/opt/application/program/soffice $1 ;;
 esac

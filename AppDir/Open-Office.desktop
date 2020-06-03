@@ -25,7 +25,7 @@ GenericName=Open-Office Writer
 Comment=Use Open-Office Writer to edit articles and reports.
 MimeType=application/wps-office.wps;application/wps-office.wpt;application/wps-office.wpso;application/wps-office.wpss;application/wps-office.doc;application/wps-office.dot;application/vnd.ms-word;application/msword;application/x-msword;application/msword-template;application/wps-office.docx;application/wps-office.dotx;application/rtf;application/vnd.ms-word.document.macroEnabled.12;application/vnd.openxmlformats-officedocument.wordprocessingml.document;x-scheme-handler/ksoqing;x-scheme-handler/ksowps;x-scheme-handler/ksowpp;x-scheme-handler/ksoet;x-scheme-handler/ksowpscloudsvr;x-scheme-handler/ksowebstartupwps;x-scheme-handler/ksowebstartupet;x-scheme-handler/ksowebstartupwpp;
 Categories=Office;WordProcessor;
-Exec=AppRun --writer %F
+Exec=AppRun --writer %U
 StartupNotify=false
 Icon=icon
 
@@ -34,7 +34,7 @@ Name=Open-Office Spreadsheets
 GenericName=Open-Office Spreadsheets
 Comment=Use Open-Office Spreadsheets to analyze manage data.
 MimeType=application/wps-office.et;application/wps-office.ett;application/wps-office.ets;application/wps-office.eto;application/wps-office.xls;application/wps-office.xlt;application/vnd.ms-excel;application/msexcel;application/x-msexcel;application/wps-office.xlsx;application/wps-office.xltx;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-Exec=AppRun --spreadsheets %F
+Exec=AppRun --spreadsheets %U
 StartupNotify=false
 Icon=icon
 
