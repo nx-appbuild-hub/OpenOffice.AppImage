@@ -17,7 +17,7 @@ all:
 
 	chmod +x $(OUTPUT)
 
-	# rm -f $(DESTINATION)
 	rm -rf AppDir/opt
 	rm -rf en-US
 	rm -rf build
+	rm -rf *.gz

@@ -12,7 +12,7 @@ X-DBUS-ServiceName=
 X-DBUS-StartupType=
 X-KDE-SubstituteUID=false
 X-KDE-Username=
-Icon=icon
+Icon=openoffice
 InitialPreference=3
 StartupWMClass=ooffice
 
@@ -27,7 +27,7 @@ MimeType=application/wps-office.wps;application/wps-office.wpt;application/wps-o
 Categories=Office;WordProcessor;
 Exec=AppRun --writer %U
 StartupNotify=false
-Icon=icon
+Icon=openoffice
 
 [Desktop Action Spreadsheets]
 Name=Open-Office Spreadsheets
@@ -36,7 +36,7 @@ Comment=Use Open-Office Spreadsheets to analyze manage data.
 MimeType=application/wps-office.et;application/wps-office.ett;application/wps-office.ets;application/wps-office.eto;application/wps-office.xls;application/wps-office.xlt;application/vnd.ms-excel;application/msexcel;application/x-msexcel;application/wps-office.xlsx;application/wps-office.xltx;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 Exec=AppRun --spreadsheets %U
 StartupNotify=false
-Icon=icon
+Icon=openoffice
 
 [Desktop Action Presentation]
 Name=Open-Office Presentation
@@ -45,7 +45,7 @@ Comment=Use Open-Office Presentation to edit and play presentations.
 MimeType=application/wps-office.dps;application/wps-office.dpt;application/wps-office.dpss;application/wps-office.dpso;application/wps-office.ppt;application/wps-office.pot;application/vnd.ms-powerpoint;application/vnd.mspowerpoint;application/mspowerpoint;application/powerpoint;application/x-mspowerpoint;application/wps-office.pptx;application/wps-office.potx;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.slideshow
 Exec=AppRun --presentation %U
 StartupNotify=false
-Icon=icon
+Icon=openoffice
 
 [Desktop Action Draw]
 Name=Open-Office Draw
@@ -53,18 +53,18 @@ GenericName=Open-Office Draw
 Comment=Use Open-Office Draw to edit vector images.
 Exec=AppRun --draw %U
 StartupNotify=false
-Icon=icon
+Icon=openoffice
 
 [Desktop Action Database]
 Name=Open-Office Database
 GenericName=Database
 Exec=AppRun --base %U
 StartupNotify=false
-Icon=icon
+Icon=openoffice
 
 [Desktop Action Math]
 Name=Math
 GenericName=Open-Office Math
 Exec=AppRun --math %U
 StartupNotify=false
-Icon=icon
+Icon=openoffice
