@@ -1,12 +1,29 @@
 #! /bin/bash
-set -e
-cd ${HOME}
+# This software is a part of the A.O.D apprepo project
+# Copyright 2015 Alex Woroschilow (alex.woroschilow@gmail.com)
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+set -ex
+
+cd ${OWD}
 
 case "$1" in
-  '--writer') exec ${APPDIR}/opt/application/program/swriter $@ ;;
-  '--spreadsheets')   exec ${APPDIR}/opt/application/program/scalc $@ ;;
-  '--presentation')   exec ${APPDIR}/opt/application/program/simpress $@ ;;
-  '--math')   exec ${APPDIR}/opt/application/program/smath $@ ;;
-  '--base')   exec ${APPDIR}/opt/application/program/sbase $@ ;;
-  *)   exec ${APPDIR}/opt/application/program/soffice $@ ;;
+  '--writer') exec ${APPDIR}/opt/application/program/swriter "$2" ;;
+  '--spreadsheets')   exec ${APPDIR}/opt/application/program/scalc "$2" ;;
+  '--presentation')   exec ${APPDIR}/opt/application/program/simpress "$2" ;;
+  '--math')   exec ${APPDIR}/opt/application/program/smath "$2" ;;
+  '--base')   exec ${APPDIR}/opt/application/program/sbase "$2" ;;
+  *)   exec ${APPDIR}/opt/application/program/soffice "$@" ;;
 esac
