@@ -27,7 +27,7 @@ all:
 
 	rm -rf AppDir/opt
 	mkdir --parents AppDir/opt/application
-	cp -r build/opt/openoffice4/* AppDir/opt/application
+	cp -r build/opt/openoffice*/* AppDir/opt/application
 
 	export ARCH=x86_64 && bin/appimagetool.AppImage AppDir $(OUTPUT)
 
