@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-SOURCE="https://netix.dl.sourceforge.net/project/openofficeorg.mirror/4.1.7/binaries/en-US/Apache_OpenOffice_4.1.7_Linux_x86-64_install-deb_en-US.tar.gz"
+SOURCE="https://sourceforge.net/projects/openofficeorg.mirror/files/4.1.11/binaries/en-US/Apache_OpenOffice_4.1.11_Linux_x86-64_install-deb_en-US.tar.gz/download"
 DESTINATION="build.tar.gz"
 OUTPUT="OpenOffice.AppImage"
 
