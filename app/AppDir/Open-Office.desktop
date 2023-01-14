@@ -1,0 +1,56 @@
+[Desktop Entry]
+Name=Open-Office
+Exec=AppRun %U
+Terminal=false
+Type=Application
+Icon=openoffice
+InitialPreference=3
+StartupWMClass=ooffice
+Actions=Writer;Spreadsheets;Presentation;Draw;Database;Math;
+Categories=Office;WordProcessor;Spreadsheet;Presentation;
+X-Comment=Use Open-Office to edit documents.
+X-GenericName=Open-Office
+X-StartupNotify=false
+X-KDE-SubstituteUID=false
+
+
+[Desktop Action Writer]
+Name=Writer
+Exec=AppRun --writer %U
+X-GenericName=Open-Office Writer
+X-Comment=Use Open-Office Writer to edit articles and reports.
+X-Categories=Office;WordProcessor;
+X-StartupNotify=false
+
+[Desktop Action Spreadsheets]
+Name=Open-Office Spreadsheets
+Exec=AppRun --spreadsheets %U
+X-GenericName=Open-Office Spreadsheets
+X-Comment=Use Open-Office Spreadsheets to analyze manage data.
+X-StartupNotify=false
+
+[Desktop Action Presentation]
+Name=Open-Office Presentation
+Exec=AppRun --presentation %U
+X-GenericName=Open-Office Presentation
+X-Comment=Use Open-Office Presentation to edit and play presentations.
+X-StartupNotify=false
+
+[Desktop Action Draw]
+Name=Open-Office Draw
+Exec=AppRun --draw %U
+X-GenericName=Open-Office Draw
+X-Comment=Use Open-Office Draw to edit vector images.
+X-StartupNotify=false
+
+[Desktop Action Database]
+Name=Open-Office Database
+Exec=AppRun --base %U
+X-GenericName=Database
+X-StartupNotify=false
+
+[Desktop Action Math]
+Name=Math
+Exec=AppRun --math %U
+X-GenericName=Open-Office Math
+X-StartupNotify=false
